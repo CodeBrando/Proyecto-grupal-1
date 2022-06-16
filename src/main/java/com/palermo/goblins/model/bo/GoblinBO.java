@@ -1,12 +1,11 @@
 package com.palermo.goblins.model.bo;
 
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
+import lombok.*;
+import lombok.experimental.SuperBuilder;
 
-@Getter
-@AllArgsConstructor
-@NoArgsConstructor
+@EqualsAndHashCode(callSuper = false)
+@SuperBuilder
+@Data
 public class GoblinBO extends CharacterBO{
 
 }

@@ -1,10 +1,10 @@
 package com.palermo.goblins.model.bo;
 
 import lombok.*;
+import lombok.experimental.SuperBuilder;
 
-@Getter
-@AllArgsConstructor
-@NoArgsConstructor
+@Data
+@SuperBuilder
 public class CharacterBO {
 
     private String name;
