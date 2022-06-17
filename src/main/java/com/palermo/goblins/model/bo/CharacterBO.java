@@ -13,4 +13,9 @@ public class CharacterBO {
     private int def;
     private int spd;
     private int sexMeter;
+
+    protected int getSexMeter(){
+       return sexMeter;
+    }
+
 }
